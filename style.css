@@ -1,9 +1,9 @@
 body{
   margin: 0;
+  font-family: "Computer Modern Serif", serif;
 }
 
 header{
-  font-family: "Computer Modern Serif", serif;
   display: flex;
   padding: 20px;
   background: darkblue;
@@ -39,7 +39,6 @@ nav a b{
 
 .hero h1{
   color: green;
-  font-family: "Computer Modern Serif", serif;
 }
 
 
@@ -59,7 +58,6 @@ nav a b{
 
 .hero button a{
   text-decoration: none;
-  font-family: "Computer Modern Serif", serif;
 }
 
 .hero button a b{
@@ -75,7 +73,6 @@ div{
 }
 
 footer{
-  font-family: "Computer Modern Serif", serif;
   text-align: center;
   padding: 10px;
   background: black;
