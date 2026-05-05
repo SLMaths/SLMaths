@@ -11,12 +11,41 @@ header{
   text-align: center;
 }
 
+header h1 a{
+  text-decoration: none;
+  color: white;
+}
+
+nav{
+  margin: 20px;
+  background: yellow;
+  border-radius: 50%;
+  align-content: center;
+}
+
+nav a{
+  text-decoration: none;
+  padding: 10px;
+  margin: 20px;
+}
+
+nav a b{
+  color: black;
+}
+
+
 div{
   padding: 20px;
 }
 
 .links a{
   text-decoration: none;
+  color: black;
+}
+
+.url{
+  text-decoration: none;
+  color: darkblue;
 }
 
 footer{
