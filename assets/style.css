@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+  font-family: "Computer Modern Serif", serif;
+}
+
+header{
+  display: flex;
+  padding: 20px;
+  background: darkblue;
+  color: white;
+  text-align: center;
+}
+
+div{
+  padding: 20px;
+}
+
+.links a{
+  text-decoration: none;
+}
+
+footer{
+  text-align: center;
+  padding: 10px;
+  background: black;
+  color: white;
+}
