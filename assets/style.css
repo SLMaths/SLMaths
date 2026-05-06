@@ -49,6 +49,16 @@ div{
   color: darkblue;
 }
 
+.ch{
+  background: cornflowerblue;
+  border-radius: 10px;
+}
+
+.churl{
+  text-decoration: none;
+  color: white;
+}
+
 footer{
   text-align: center;
   padding: 10px;
