@@ -6,16 +6,33 @@ body{
 }
 
 /* HEADER */
-header{
+header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 15px 20px;
+  align-items: center;
+  padding: 15px 25px;
   background: darkblue;
   color: white;
 }
 
-header h1 a{
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+header h1 {
+  font-size: 22px;
+  margin: 0;
+}
+
+header h1 a {
   text-decoration: none;
   color: white;
 }
