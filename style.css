@@ -1,80 +1,104 @@
-body{
+body {
   margin: 0;
   font-family: "Computer Modern Serif", serif;
+  background: #ffffff; /* clean flat background */
+  color: #1a1a1a;
 }
 
-header{
+/* HEADER */
+header {
   display: flex;
-  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
   background: darkblue;
-  text-align: center;
+  color: white;
 }
 
-header h1 a{
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+header h1 {
+  font-size: 22px;
+  margin: 0;
+}
+
+header h1 a {
   text-decoration: none;
   color: white;
 }
 
-nav{
-  margin: 20px;
-  background: yellow;
-  border-radius: 50%;
-  align-content: center;
-}
-
-nav a{
+/* NAV */
+nav a {
   text-decoration: none;
-  padding: 10px;
-  margin: 20px;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: rgba(255,255,255,0.15);
 }
 
-nav a b{
-  color: black;
+nav a:hover {
+  background: rgba(255,255,255,0.25);
 }
 
-.hero{
-  padding: 20px;
+/* HERO */
+.hero {
   text-align: center;
+  padding: 40px 20px;
 }
 
-.hero h1{
-  color: green;
+.hero h2 {
+  color: darkblue;
 }
 
+.hero h1 {
+  color: darkgreen;
+  font-size: 36px;
+}
 
-.hero div{
-  padding-left: 20px;
-  padding-right: 20px;
+.hero-img {
+  width: 250px;
+  margin: 20px 0;
+}
+
+/* TEXT (NO BOX / NO CARD / NO FLOAT) */
+.hero-text {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
   text-align: justify;
-  line-height: 25px;
+  line-height: 1.8;
 }
 
-.hero button{
-  background: white;
-  padding: 10px;
-  border: 0;
-  border-radius: 20px;
-}
-
-.hero button a{
+/* BUTTON */
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 18px;
+  background: darkblue;
+  color: white;
   text-decoration: none;
+  border-radius: 6px;
 }
 
-.hero button a b{
-  color: cornflowerblue;
+.cta-button:hover {
+  background: #0b1a5a;
 }
 
-div{
-  padding: 20px;
-}
-
-.links a{
-  text-decoration: none;
-}
-
-footer{
+/* FOOTER */
+footer {
   text-align: center;
-  padding: 10px;
+  padding: 12px;
   background: black;
   color: white;
+  margin-top: 40px;
 }
