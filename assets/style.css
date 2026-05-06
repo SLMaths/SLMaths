@@ -1,14 +1,18 @@
 body{
   margin: 0;
   font-family: "Computer Modern Serif", serif;
+  background: #ffffff;
+  color: #111;
 }
 
+/* HEADER */
 header{
   display: flex;
-  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
   background: darkblue;
   color: white;
-  text-align: center;
 }
 
 header h1 a{
@@ -16,55 +20,61 @@ header h1 a{
   color: white;
 }
 
+/* NAV */
 nav{
-  margin: 20px;
-  background: yellow;
-  border-radius: 50%;
-  align-content: center;
+  margin: 0;
 }
 
 nav a{
   text-decoration: none;
-  padding: 10px;
-  margin: 20px;
-}
-
-nav a b{
+  padding: 8px 14px;
+  background: rgba(255,255,0,0.9);
+  border-radius: 6px;
   color: black;
+  font-weight: bold;
 }
 
-
+/* MAIN CONTENT */
 div{
   padding: 20px;
-  line-height: 25px;
+  line-height: 1.7;
 }
 
-.links a{
-  text-decoration: none;
-  color: black;
-}
-
+/* LINK TITLE */
 .url{
   text-decoration: none;
   color: darkblue;
 }
 
+/* CHAPTER BOX */
 .ch{
-  background: cornflowerblue;
+  background: #4f86f7; /* softer than cornflower */
   border-radius: 10px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
 }
 
+/* CHAPTER LINKS */
 .churl{
   text-decoration: none;
   color: white;
+  display: block;
+  padding: 5px 0;
 }
 
+.churl:hover{
+  text-decoration: underline;
+}
+
+/* PDF VIEWER */
 .np{
   width: 100%;
   height: 600px;
   margin: 0;
+  border: none;
 }
 
+/* FOOTER */
 footer{
   text-align: center;
   padding: 10px;
