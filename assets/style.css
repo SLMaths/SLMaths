@@ -51,9 +51,11 @@ nav a:hover {
 }
 
 .content{
+  max-width: 900px;
   margin: 20px auto;
   padding: 20px;
-  line-height: 1.7;
+  text-align: justify;
+  line-height: 1.8;
 }
 
 /* LINK TITLE */
