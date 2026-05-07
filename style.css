@@ -70,7 +70,7 @@ nav a:hover {
   margin: 20px 0;
 }
 
-/* TEXT (NO BOX / NO CARD / NO FLOAT) */
+/* TEXT */
 .hero-text {
   text-align: justify;
   line-height: 1.8;
