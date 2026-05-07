@@ -56,9 +56,6 @@ nav a:hover {
 }
 
 .context{
-  max-width: 900px;
-  margin: 20px auto;
-  padding: 20px;
   text-align: justify;
   line-height: 1.8;
 }
