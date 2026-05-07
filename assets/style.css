@@ -51,6 +51,11 @@ nav a:hover {
 }
 
 .content{
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.context{
   max-width: 900px;
   margin: 20px auto;
   padding: 20px;
